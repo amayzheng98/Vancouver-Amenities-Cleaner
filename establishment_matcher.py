@@ -16,7 +16,7 @@ def main():
     amenities = pd.read_json(in_file, lines=True)
     names = pd.read_csv(esta_name_file)
     amenities['closest_name'] = amenities['name'].apply(
-        lambda title: difflib.get_close_matches(title, names['establishment name'].values, 1, .65))
+        lambda title: difflib.get_close_matches(title, names['establishment name'].values, 1, .85))
     amenities['closest_name'] = amenities['closest_name'].apply(lambda title: ''.join(title)) 
     
     alco = amenities[amenities['closest_name'] != '']
