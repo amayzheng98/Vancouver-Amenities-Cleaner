@@ -1,5 +1,5 @@
 # Vancouver-Amenities-Cleaner
-The goal of the project is to visualize Vancouver restaurants and pubs and provide ways to update the data with a web app.
+The goal of the project is to visualize Vancouver restaurants and pubs and provide ways to update the data with a web app. Canadian chain restaurants, transportation places, and licensed alcohol selling amenities will also be clustered to look for hotspots and nearby hotels.
 
 # Please follow steps 1-7 to acquire the neccessary data
 "amenities-vancouver.json.gz", "CanadaFoodChains.csv", "json_to_geojson.py", and "amenities.zip" should be in your directory. "amenities.zip" contains all required csv files.
