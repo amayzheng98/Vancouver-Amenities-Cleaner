@@ -4,7 +4,7 @@ The goal of the project is to visualize Vancouver restaurants and pubs and provi
 # Please follow steps 1-7 to acquire the neccessary data
 "amenities-vancouver.json.gz", "CanadaFoodChains.csv", "json_to_geojson.py", and "amenities.zip" should be in your directory. "amenities.zip" contains all required csv files.
 
-1. "travel-amenities.ipynb" or "food-amenities.py" will output "transportation-amenities-vancouver.json".
+1. "travel-amenities.ipynb" will output "transportation-amenities-vancouver.json".
 2. "food-amenities.ipynb" will output "food-amenities-vancouver.json", and "non-food-amenities-vancouver.json".
 3. "vancouver-hotels.ipynb" will output "vancouver-hotels.json".
 4. "establishment_matcher.ipynb" or "establishment_matcher.py" will "output alcohol-licensed-vancouver.json", "no-alcohol-licensed-vancouver.json", and "licenseless-bar-pub-vancouver.json".
